@@ -1,0 +1,28 @@
+div.table {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);  /* Crea 9 colonne con dimensione uguale a 1/9 dello spazio totale */
+    border-collapse: collapse;
+}
+
+div.riga {
+    display: contents;      /* Fa si che tutti i i div dentro .riga vengano considerati item del grid */
+}
+
+div.cella {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.numero {
+    text-align: right;
+}
+
+img {
+    height: 35px;
+}
+
+div.intestazioni {
+    font-weight: 1000;
+    background-color: lightgray;
+    font-size: larger;
+}

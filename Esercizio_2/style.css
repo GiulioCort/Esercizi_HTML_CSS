@@ -1,0 +1,28 @@
+div.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div.riga {
+    display: table-row
+}
+
+div.cella {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.numero {
+    text-align: right;
+}
+
+img {
+    height: 35px;
+}
+
+div.intestazioni {
+    font-weight: 1000;
+    background-color: lightgray;
+}

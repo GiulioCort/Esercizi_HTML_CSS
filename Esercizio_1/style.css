@@ -1,0 +1,24 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 60px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.numero {
+    text-align: right;
+}
+
+img {
+    height: 35px;
+}
