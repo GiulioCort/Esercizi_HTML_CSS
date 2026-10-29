@@ -1,0 +1,25 @@
+div.table {
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+
+div.cella {
+    border: 1px solid black;
+    padding: 8px;
+    width: 10%;
+}
+
+.numero {
+    text-align: right;
+}
+
+img {
+    height: 35px;
+}
+
+div.intestazioni {
+    font-weight: 1000;
+    background-color: lightgray;
+    font-size: larger;
+}
