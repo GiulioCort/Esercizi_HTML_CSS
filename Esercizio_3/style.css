@@ -4,10 +4,6 @@ div.table {
     border-collapse: collapse;
 }
 
-div.riga {
-    display: contents;      /* Fa si che tutti i i div dentro .riga vengano considerati item del grid */
-}
-
 div.cella {
     border: 1px solid black;
     padding: 8px;
